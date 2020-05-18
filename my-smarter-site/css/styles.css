@@ -1,0 +1,34 @@
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em; /* Makes the text 1.2x the default text size */
+}
+
+p.important {
+  font-size: 1.5em;
+  font-weight: 900;  
+}
+
+h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.2em; /* Makes the text 1.2x the default text size, NOT 1.2x the size of the h1 size */ 
+}
+
+h1.special {
+  font-size: 1.75em;
+}
+
+h1.conspicuous {
+  color: red;
+}
+
+h1.enhanced {
+  font-weight: bold;
+}
+
+.typewriter {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.nothing {
+  font-style: italic;
+}
